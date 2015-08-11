@@ -11,3 +11,58 @@ body {
   background-repeat: repeat-x;
   width: 100%;
 }
+
+div {
+  border: 1px;
+  border-color: red;
+}
+
+.main-body {
+  display: inline-block;
+  background-image: url(../images/frame.png);
+  max-width: 500px;
+}
+
+.main-body img {
+  padding: 0 0 0 20px;
+}
+
+p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  color: #06365f;
+}
+
+button {
+  float: right;
+  padding: 10px;
+  background-color: #1c5380;
+  border: 1px; 
+  border-color: #06365f;
+  width: 105px;
+  height: 40px;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.phones {
+  vertical-align: center;
+  margin-left: 50px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0 10px 0 10px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+
